@@ -1,22 +1,30 @@
-import Products from "./Components/Products/Products"
-
+import { useState } from 'react'
+import './App.css'
 
 function App() {
-  const ProductName = [
-    {name:'Dell', model:'Dell 33OP3', price: 20000},
-    {name:'HP', model:'HP 55@CE', price: 30000},
-    {name:'Asus', model:'Asus 43PP03', price: 40000},
-  ]
+  
+  const [amount, setAmount] = useState(3);
 
-  const forAlert = () => {
-    alert("Alert Don't Click")
+  const increase = () => {
+    const newAmount = amount + 1;
+    setAmount(newAmount);
   }
+
+  const decrease = () => {
+    const newAmount = amount - 1;
+    setAmount(newAmount);
+  }
+
  
   return (
-    <div>
-      {
-        ProductName.map(product => <Products product={product} alert={forAlert} ></Products>)
-      }
+    <div className="component">
+      <h1>Price: {amount} </h1>
+      <button onClick={increase} className='plus-btn' >+</button> 
+      <button onClick={decrease} className='minus-btn'>-</button>
+
+      <h2>Price: {amount}</h2>
+      <h5>Price: {amount}</h5>
+      <p>Price: {amount}</p>
     </div>
   )
 }
