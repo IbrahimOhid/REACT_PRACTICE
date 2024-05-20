@@ -1,30 +1,24 @@
-import { useState } from 'react'
+
+import { useEffect, useState } from 'react'
 import './App.css'
+import User_data from './components/User_data/User_data';
 
 function App() {
+
+  const [allData, setAllData] = useState([]);
   
-  const [amount, setAmount] = useState(3);
-
-  const increase = () => {
-    const newAmount = amount + 1;
-    setAmount(newAmount);
-  }
-
-  const decrease = () => {
-    const newAmount = amount - 1;
-    setAmount(newAmount);
-  }
-
+  useEffect(()=>{
+    fetch('https://jsonplaceholder.typicode.com/users')
+    .then(res => res.json())
+    .then(data => setAllData(data))
+  },[])
  
   return (
-    <div className="component">
-      <h1>Price: {amount} </h1>
-      <button onClick={increase} className='plus-btn' >+</button> 
-      <button onClick={decrease} className='minus-btn'>-</button>
-
-      <h2>Price: {amount}</h2>
-      <h5>Price: {amount}</h5>
-      <p>Price: {amount}</p>
+    <div>
+      <h1>Total Data: {allData.length}</h1>
+      {
+        allData.map(singleData => <User_data key={singleData.id} singleData = {singleData} ></User_data>)
+      }
     </div>
   )
 }
