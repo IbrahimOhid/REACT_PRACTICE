@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "+1234567890",
+      "address": "123 Main Street, Cityville, State, Country"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "phone": "+1987654321",
+      "address": "456 Elm Street, Townsville, State, Country"
+    },
+    {
+      "id": 3,
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "phone": "+1122334455",
+      "address": "789 Oak Street, Villageton, State, Country"
+    },
+    {
+      "id": 4,
+      "name": "Bob Brown",
+      "email": "bob@example.com",
+      "phone": "+1555666777",
+      "address": "101 Pine Street, Hamletville, State, Country"
+    },
+    {
+      "id": 5,
+      "name": "Emily Davis",
+      "email": "emily@example.com",
+      "phone": "+1444333222",
+      "address": "202 Cedar Street, Boroughtown, State, Country"
+    },
+    {
+      "id": 6,
+      "name": "Michael Wilson",
+      "email": "michael@example.com",
+      "phone": "+1777888999",
+      "address": "303 Maple Street, Township, State, Country"
+    },
+    {
+      "id": 7,
+      "name": "Sarah Martinez",
+      "email": "sarah@example.com",
+      "phone": "+1666999888",
+      "address": "404 Birch Street, Outskirts, State, Country"
+    },
+    {
+      "id": 8,
+      "name": "David Thompson",
+      "email": "david@example.com",
+      "phone": "+1888999000",
+      "address": "505 Walnut Street, Suburbia, State, Country"
+    },
+    {
+      "id": 9,
+      "name": "Olivia Garcia",
+      "email": "olivia@example.com",
+      "phone": "+1999000111",
+      "address": "606 Spruce Street, Countryside, State, Country"
+    },
+    {
+      "id": 10,
+      "name": "James Rodriguez",
+      "email": "james@example.com",
+      "phone": "+1333222111",
+      "address": "707 Birchwood Lane, Riverside, State, Country"
+    }
+  ]
+  
