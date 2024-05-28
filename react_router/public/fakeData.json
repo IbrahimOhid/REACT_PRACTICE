@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Laptop",
+        "price": 999.99
+    },
+    {
+        "id": 2,
+        "name": "Smartphone",
+        "price": 699.99
+    },
+    {
+        "id": 3,
+        "name": "Tablet",
+        "price": 329.99
+    },
+    {
+        "id": 4,
+        "name": "Smartwatch",
+        "price": 199.99
+    },
+    {
+        "id": 5,
+        "name": "Wireless Earbuds",
+        "price": 129.99
+    },
+    {
+        "id": 6,
+        "name": "Bluetooth Speaker",
+        "price": 59.99
+    },
+    {
+        "id": 7,
+        "name": "External Hard Drive",
+        "price": 89.99
+    },
+    {
+        "id": 8,
+        "name": "Monitor",
+        "price": 179.99
+    }
+]
