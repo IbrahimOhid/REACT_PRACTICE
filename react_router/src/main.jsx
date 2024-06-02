@@ -10,6 +10,7 @@ import About from './components/About/About';
 import Pricing from './components/Pricing/Pricing';
 import ErrorPage from "./components/ErrorPage/ErrorPage.jsx";
 import Product from "./components/Product/Product.jsx";
+import MoreInfo from "./components/MoreInfo/MoreInfo.jsx";
 
 
 
@@ -42,7 +43,12 @@ const router = createBrowserRouter([
       {
         path: '/product',
         element: <Product></Product>,
-        loader: ()=> fetch('fakeData.json')
+        loader: ()=> fetch('https://fakestoreapi.com/products')
+      },
+      {
+        path: '/product/:productId',
+        element: <MoreInfo></MoreInfo>,
+        loader: ({params})=> fetch(`https://fakestoreapi.com/products/${params.productId}`)
       }
     ]
   }
