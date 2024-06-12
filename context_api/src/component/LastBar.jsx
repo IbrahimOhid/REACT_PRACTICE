@@ -1,12 +1,12 @@
 import { useContext } from "react"
-import { FirstContext } from "../App"
+import { NameContext } from "./Context/Context1"
 
 
 function LastBar() {
-  const [count, setCount] = useContext(FirstContext)
+  const ReceivedContext = useContext(NameContext)
   return (
     <div>
-    <button onClick={()=> setCount(count + 1)} className="bg-red-500 text-white rounded-md px-3 py-2 ">Lastbar Count : {count} </button>
+    <button className="bg-red-500 text-white rounded-md px-3 py-2 ">Name Four - {ReceivedContext} </button>
     </div>
   )
 }

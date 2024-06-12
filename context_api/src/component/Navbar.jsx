@@ -1,13 +1,13 @@
 import { useContext } from 'react'
 import Mainbar from './MainBar'
-import { SecondContext } from '../App'
+import { NameContext } from './Context/Context1'
 
 function Navbar() {
-  const [count1, setCount1] = useContext(SecondContext)
+  const TouchContext = useContext(NameContext)
   return (
     <div>
     <Mainbar></Mainbar>
-    <button onClick={()=> setCount1(count1 + 1)} className="bg-red-500 text-white rounded-md px-3 py-2 mt-5">Navbar Count : {count1}</button>
+    <button  className="bg-red-500 text-white rounded-md px-3 py-2 mt-5">Name Two - {TouchContext} </button>
     </div>
   )
 }
