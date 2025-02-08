@@ -4,14 +4,21 @@ import Products from './components/Products/Products'
 
 function App() {
  
-  const productList = {
-    name: 'HP Laptop',
-    price: 30000
+  const userInfo = [
+    {name: 'ibrahim', designation: 'web engineer', experience: 2},
+    {name: 'mohammad', designation: 'web developer', experience: 3}, 
+    {name: 'Rahim', designation: 'web designer', experience: 4}
+  ]
+
+  const buttonAlert = () => {
+    alert('Oh no');
   }
 
   return (
     <>
-      <Products products = {productList}></Products>
+      {
+        userInfo.map(singleUser => <Products user = {singleUser} alert= {buttonAlert}></Products>)
+      }
     </>
   )
 }

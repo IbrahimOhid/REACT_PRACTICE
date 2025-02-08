@@ -1,10 +1,13 @@
 
 
 const Products = (props) => {
+  
   return (
     <div>
-        <h3>Product Name: {props.products.name}</h3>
-        <p>Price: {props.products.price}</p>
+        <h2>Name: {props.user.name}</h2>
+        <h5>Designation: {props.user.designation}</h5>
+        <p>Experience: {props.user.experience} </p>
+        <button onClick={props.alert}>Click Me</button>
     </div>
   )
 }
