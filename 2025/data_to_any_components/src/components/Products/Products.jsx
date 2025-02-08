@@ -1,13 +1,28 @@
+import { useState } from "react"
 
 
-const Products = (props) => {
+const Products = () => {
+
+  const [price, setPrice] = useState(0);
+
+  const increaseBtn = () =>{
+    const newPrice = price + 1;
+    setPrice(newPrice)
+  }
+
+  const decreaseBtn = () =>{
+    const newPrice = price - 1;
+    setPrice(newPrice)
+  }
   
   return (
     <div>
-        <h2>Name: {props.user.name}</h2>
-        <h5>Designation: {props.user.designation}</h5>
-        <p>Experience: {props.user.experience} </p>
-        <button onClick={props.alert}>Click Me</button>
+        <h1>Price: {price} </h1>
+        <button onClick={increaseBtn}>Increase</button> 
+        <button onClick={decreaseBtn}>Decrease</button>
+
+        <h3>PriceTwo: {price}</h3>
+        <p>PriceThree: {price}</p>
     </div>
   )
 }
