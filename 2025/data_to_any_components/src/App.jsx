@@ -1,5 +1,5 @@
-
 import './App.css'
+import ProductPrice from './components/ProductPrice/ProductPrice'
 import Products from './components/Products/Products'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <Products></Products>
+      <ProductPrice></ProductPrice>
     </>
   )
 }
