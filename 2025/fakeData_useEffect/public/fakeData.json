@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "age": 28,
+      "phone": "555-1234",
+      "email": "johndoe@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "age": 34,
+      "phone": "555-5678",
+      "email": "janesmith@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Robert Johnson",
+      "age": 40,
+      "phone": "555-8765",
+      "email": "robertj@example.com"
+    },
+    {
+      "id": 4,
+      "name": "Emily Davis",
+      "age": 25,
+      "phone": "555-4321",
+      "email": "emilyd@example.com"
+    },
+    {
+      "id": 5,
+      "name": "Michael Brown",
+      "age": 30,
+      "phone": "555-6789",
+      "email": "michaelb@example.com"
+    },
+    {
+      "id": 6,
+      "name": "Sarah Wilson",
+      "age": 27,
+      "phone": "555-2468",
+      "email": "sarahw@example.com"
+    },
+    {
+      "id": 7,
+      "name": "David Martinez",
+      "age": 35,
+      "phone": "555-1357",
+      "email": "davidm@example.com"
+    },
+    {
+      "id": 8,
+      "name": "Laura Taylor",
+      "age": 29,
+      "phone": "555-9876",
+      "email": "laurat@example.com"
+    },
+    {
+      "id": 9,
+      "name": "James Anderson",
+      "age": 32,
+      "phone": "555-3698",
+      "email": "jamesa@example.com"
+    },
+    {
+      "id": 10,
+      "name": "Olivia Thomas",
+      "age": 26,
+      "phone": "555-7410",
+      "email": "oliviat@example.com"
+    }
+  ]
+  
