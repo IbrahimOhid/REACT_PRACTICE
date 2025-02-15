@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "name": "Wireless Bluetooth Headphones",
+      "price": 59.99,
+      "img": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch Fitness Tracker",
+      "price": 129.99,
+      "img": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    },
+    {
+      "id": 3,
+      "name": "Wireless Mechanical Keyboard",
+      "price": 89.99,
+      "img": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    },
+    {
+      "id": 4,
+      "name": "Noise Cancelling Over-Ear Headphones",
+      "price": 199.99,
+      "img": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    },
+    {
+      "id": 5,
+      "name": "Portable Bluetooth Speaker",
+      "price": 39.99,
+      "img": "https://images.unsplash.com/photo-1546445320-8b7b54c0bcbf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    },
+    {
+      "id": 6,
+      "name": "Gaming Mouse with RGB Lighting",
+      "price": 49.99,
+      "img": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    },
+    {
+      "id": 7,
+      "name": "4K Ultra HD Smart TV",
+      "price": 599.99,
+      "img": "https://images.unsplash.com/photo-1593784991095-a205069470b6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    },
+    {
+      "id": 8,
+      "name": "Wireless Charging Pad",
+      "price": 29.99,
+      "img": "https://images.unsplash.com/photo-1604594849809-dfeddd827059?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    },
+    {
+      "id": 9,
+      "name": "Laptop Backpack",
+      "price": 49.99,
+      "img": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    },
+    {
+      "id": 10,
+      "name": "Smart Home Security Camera",
+      "price": 79.99,
+      "img": "https://images.unsplash.com/photo-1591378603223-e15b45a81640?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    }
+  ]
