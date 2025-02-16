@@ -1,12 +1,15 @@
-import SingleProduct from "../SingleProduct/SingleProduct"
+import SingleCart from "../SingleCart/SingleCart"
 
 
-const Placement = ({addProduct}) => {
+const Placement = ({placement}) => {
   return (
-    <div className='w-1/4'>
-        <h1 className='text-2xl'>Placement</h1>
+    <div>
+        <h1 className=" text-blue-950 w-1/4 underline underline-offset-4">Cart : {placement.length}</h1>
         {
-            addProduct.map(singleProduct => <SingleProduct key={singleProduct.id} singleProduct={singleProduct}></SingleProduct>)
+            placement.map(singlecart => <SingleCart
+            key={singlecart.id}
+            singlecart={singlecart}
+            ></SingleCart>)
         }
     </div>
   )

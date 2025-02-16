@@ -5,16 +5,17 @@ import Placement from './components/Placement/Placement'
 import Products from './components/Products/Products'
 
 function App() {
-  const [addProduct, setAddProduct] = useState([])
+  const [placement, setPlacement] = useState([])
+  
   const addToCart = (product)=>{
-    const addedProduct = [...addProduct, product];
-    setAddProduct(addedProduct)
+    const newProduct = [...placement, product];
+    setPlacement(newProduct)
   }
-
+ 
   return (
-    <div className='flex'>
+    <div className='flex gap-x-6'>
      <Products addToCart={addToCart}></Products>
-     <Placement addProduct={addProduct} ></Placement>
+     <Placement placement={placement}></Placement>
     </div>
   )
 }
