@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "name": "Wireless Earbuds",
+      "price": "$79.99",
+      "keyword": "audio"
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch",
+      "price": "$129.99",
+      "keyword": "wearable"
+    },
+    {
+      "id": 3,
+      "name": "Bluetooth Speaker",
+      "price": "$49.99",
+      "keyword": "audio"
+    },
+    {
+      "id": 4,
+      "name": "Gaming Mouse",
+      "price": "$59.99",
+      "keyword": "gaming"
+    },
+    {
+      "id": 5,
+      "name": "Laptop Backpack",
+      "price": "$39.99",
+      "keyword": "accessories"
+    },
+    {
+      "id": 6,
+      "name": "Wireless Charger",
+      "price": "$29.99",
+      "keyword": "electronics"
+    },
+    {
+      "id": 7,
+      "name": "Electric Kettle",
+      "price": "$34.99",
+      "keyword": "kitchen"
+    },
+    {
+      "id": 8,
+      "name": "Desk Lamp",
+      "price": "$24.99",
+      "keyword": "office"
+    },
+    {
+      "id": 9,
+      "name": "Power Bank",
+      "price": "$45.99",
+      "keyword": "electronics"
+    },
+    {
+      "id": 10,
+      "name": "Yoga Mat",
+      "price": "$19.99",
+      "keyword": "fitness"
+    }
+  ]
