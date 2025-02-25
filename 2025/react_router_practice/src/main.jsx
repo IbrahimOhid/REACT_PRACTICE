@@ -6,20 +6,46 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import ErrorPage from './component/ErrorPage/ErrorPage.jsx';
+import About from './component/About/About';
+import Home from './component/Home/Home.jsx'
+import Blog from './component/Product/Product.jsx';
+import Contact from './component/Contact/Contact.jsx'
+import Product from './component/Product/Product.jsx';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <div>Hello World</div>
-  },
-  {
-    path: '/home',
-    element: <div className='bg-blue-800 text-white px-3 py-2 rounded-xl'>I Am From Hoomeeeeeee</div>
+    element: <App></App>,
+    errorElement: <ErrorPage></ErrorPage>,
+    children:[
+      {
+        path: '/home',
+        element: <Home></Home>
+      }
+      ,
+      {
+        path: '/about',
+        element: <About></About>
+      },
+      {
+        path: '/product',
+        loader: ()=> fetch('https://fakestoreapi.com/products') ,
+        element:<Product></Product>
+      },
+      {
+        path: '/contact',
+        element: <Contact></Contact>
+      }
+    ]
   }
 ])
 
+
+
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router}></RouterProvider>
+    <RouterProvider router={router} />
   </StrictMode>,
 )
