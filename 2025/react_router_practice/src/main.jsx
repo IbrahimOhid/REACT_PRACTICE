@@ -12,6 +12,7 @@ import Home from './component/Home/Home.jsx'
 import Blog from './component/Product/Product.jsx';
 import Contact from './component/Contact/Contact.jsx'
 import Product from './component/Product/Product.jsx';
+import MoreInfo from './component/MoreInfo/MoreInfo.jsx';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,11 @@ const router = createBrowserRouter([
         path: '/product',
         loader: ()=> fetch('https://fakestoreapi.com/products') ,
         element:<Product></Product>
+      },
+      {
+        path: '/product/:productID',
+        loader: ({params})=> fetch(`https://fakestoreapi.com/products/${params.productID}`),
+        element: <MoreInfo></MoreInfo>
       },
       {
         path: '/contact',
