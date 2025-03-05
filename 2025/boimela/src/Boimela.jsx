@@ -5,7 +5,7 @@ import BookList from './BookList'
 
 const Boimela = () => {
   return (
-    <div>
+    <div className='mx-auto container p-32'>
         <Header />
         <Search />
         <BookList />

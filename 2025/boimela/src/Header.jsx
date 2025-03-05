@@ -2,7 +2,9 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <div>
+      <h1 className="text-lg font-semibold my-2">Boimela</h1>
+    </div>
   )
 }
 
