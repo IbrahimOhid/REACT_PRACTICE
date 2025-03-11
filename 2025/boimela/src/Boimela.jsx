@@ -73,8 +73,8 @@ const Boimela = () => {
   return (
     <div className='mx-auto container p-32'>
         <Header />
-        <Search setSearchTerm={searchTerm} onSearchTerm={setSearchTerm} />
-        <BookList setSearchTerm={searchTerm} books={Books} />
+        <Search searchTerm={searchTerm} onSearchBook={setSearchTerm} />
+        <BookList searchTerm={searchTerm} books={Books} />
     </div>
   )
 }
