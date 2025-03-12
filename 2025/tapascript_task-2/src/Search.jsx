@@ -1,14 +1,18 @@
 import React from "react";
 
-const Search = () => {
+const Search = ({searchCar, onSearchCar}) => {
   return (
     <div>
-      <input
-        type="email"
-        id="email"
-        name="email"
-        className="w-full bg-white rounded border border-gray-300  py-1 px-3 "
-      />
+      <form action="">
+        <input
+          type="email"
+          id="email"
+          name="email"
+          value={searchCar}
+          onChange={(event)=> onSearchCar(event.target.value)}
+          className="w-full bg-white rounded border border-gray-300  py-1 px-3 "
+        />
+      </form>
     </div>
   );
 };
